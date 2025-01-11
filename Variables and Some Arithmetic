@@ -1,0 +1,15 @@
+
+if __name__ == "__main__":
+ with open('rosalind_ini2.txt', 'r') as file:
+     line = file.readline().strip()
+     no1, no2 = map(int, line.split())
+
+ if no1 < 1000 and no2 < 1000:
+     squared_Hypotenuse = no1**2 + no2**2
+     print(f'Hypotenuse is: {squared_Hypotenuse} ')
+ else:
+     print('conditions do not match')
+
+
+
+
